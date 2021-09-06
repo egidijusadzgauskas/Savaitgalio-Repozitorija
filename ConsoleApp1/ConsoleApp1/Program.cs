@@ -10,6 +10,10 @@ namespace gitHub_mokymai
             for (var i = 0; i < 26; i++)
                 strings[i] = $"\"{(char)('a' + i)}\"";
             Console.WriteLine($"「{string.Join(",", strings)}」");
+            for (int i = 0; i < 100; i++)
+            {
+                Console.Write("Egidijus");
+            }
         }
     }
 }
